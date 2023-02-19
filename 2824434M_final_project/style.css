@@ -1,0 +1,218 @@
+* {
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 22px;
+	line-height: 22px;
+	margin: 0 8px 0 8px;
+  text-decoration: underline;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0 8px 0 8px;
+}
+
+h4 {
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0 8px 0 8px;
+}
+
+h5 {
+	font-size: 13px;
+	line-height: 16px;
+	margin: 0 8px 0 8px;
+}
+
+p {
+	font-size: 12px;
+	line-height: 14px;
+	margin: 0 8px 0 8px;
+}
+
+p2 {
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0 8px 0 8px;
+}
+
+
+#features {
+  padding: 16px;
+  border-radius: 6px;
+  height: 220px;
+  margin-top: 20px;
+  left: 20px;
+  width: 180px;
+}
+
+
+#cardiff_map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+.map-overlay {
+  position: fixed;
+  left: 10;
+  top:0;
+  width: 850px;
+  height: 60px;
+  background: #fff;
+  opacity: 0.75;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 6px;
+}
+
+#chart1 {
+  opacity: 1;
+  bottom: 30px;
+  left: 240px;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+
+#chart2 {
+  opacity:1;
+  top: 230px;
+  left: 240px;
+  height: 200px;
+  width: 300px;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.map-overlay2 {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 350px;
+  height: 150px;
+  overflow: auto;
+  background: #fff;
+  opacity: 0.75;
+  margin-right: 20px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 3px;
+}
+.right_pannel {
+	position: absolute;
+	background: #fff;
+  opacity: 0.75;
+  margin-right: 20px;
+  border-radius: 3px;
+}
+
+.pannel-buttons {
+	display: flex;
+  
+	margin: 6px 0 16px 0;
+}
+
+#controller {
+	padding: 16px;
+	margin-top: 20px;
+	right: 20px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+#legend {
+  position:fixed;
+  left: 20px;
+  bottom: 48px;
+  width: 480px;
+  height: 48px;
+	display: flex;
+  padding: 16px;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+.legend-key {
+  display: inline;
+  border-radius: 10%;
+  padding: 0px;
+	width: 50px;
+	height: 25px;
+}
+
+
+.button {
+	margin: 0 8px 0 8px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkbox {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	margin: 0 2px 0 4px;
+	
+	&.radio {
+		border-radius: 10px;
+	}
+	
+	&.checked {
+	background-color: #ff77aa;
+	}
+}
+
+
+#legend2 {
+  position:fixed;
+  right: 20px;
+  bottom: 48px;
+  width: 480px;
+  height: 48px;
+	display: flex;
+  padding: 16px;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+.legend-key2 {
+  display: inline;
+  border-radius: 10%;
+  padding: 0px;
+	width: 50px;
+	height: 25px;
+}
+
+.button2 {
+	margin: 0 8px 0 8px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.checkbox2 {
+	width: 12px;
+	height: 12px;
+	border: 1px solid #000;
+	border-radius: 3px;
+	margin: 0 2px 0 4px;
+	
+	
+	&.radio2 {
+		border-radius: 10px;
+	}
+	
+	&.checked2 {
+	background-color: #000;
+	}
+}
